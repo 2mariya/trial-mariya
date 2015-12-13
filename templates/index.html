@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Milestone Project. Mariya Bondareva</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<style>
+				p {margin-left: 1em;}
+		</style>
+	</head>
+    
+	<body>
+		<div class=page>
+            <h1><p>A milestone project</p></h1> 
+			<h5><p>
+				Enter a stock ticker to see closing price data. 
+            </p></h5>
+            
+			<form id='my_form' method='post' action='show_graph' >       
+				<p>
+					Ticker Symbol: <input type='text' name='ticker_symbol' />
+				</p>
+				<p>
+					Date Range: <select name="date_range">
+						<option value="last_month">Last Month</option>
+						<option value="all">All</option>
+					</select>
+				</p> 
+				<p>
+					<input type='submit' value='Show' />
+				</p>
+			</form>
+		</div>
+	</body>
+</html>
+
+
+
+
